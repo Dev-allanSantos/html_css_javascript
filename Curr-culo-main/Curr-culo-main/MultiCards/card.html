@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade LIMA</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+    
+<body>
+    <main>
+        <div class="card">
+            <h2>Par e Impar</h2>
+            <form>
+                <input type="number" name="numero" id="par&impar" placeholder="Informe um número">
+            </form>
+            <div>
+
+                <button onclick="par_e_impar()">Executar</button>
+            </div>
+            Resultado: <span id="res_par_e_impar"></span>
+        </div>
+        <div class="card">
+            <h2>Calculadora</h2>
+            <form>
+                <input type="number" id="numero1" placeholder="Digite um número"><br>
+                <input type="number" id="numero2" placeholder="Digite um número"><br>
+            </form>
+            <div id="div_button_cal">
+                <button onclick="calcular(event)" id="button_cal">+</button>
+                <button onclick="calcular(event)" id="button_cal">-</button>
+                <button onclick="calcular(event)" id="button_cal">*</button>
+                <button onclick="calcular(event)" id="button_cal">/</button>
+            </div>
+            Resultado: <span id="res_calculadora"></span>
+        </div>
+        <div class="card">
+            <h2>Temperatura</h2>
+            <form>
+                <input type="number" id="temperatura" placeholder="Informe a temperatura">
+            </form>
+            <div>
+                <button onclick="temperatura()">Executar</button> <br>
+            </div>
+            Resultado: <span id="res_temperatura"></span>
+        </div>
+        <div class="card">
+            <h2>Conversão de Moedas</h2>
+            <form>
+                <input type="number" id="moeda" placeholder="Informe um valor">
+                <input type="number" id="cotaçao" placeholder="Informe a cotação">
+            </form>
+            <div>
+                <button onclick="moedas()">Executar</button>
+            </div>
+            Resultado: <span id="res_conversao"></span>
+        </div>
+        <div class="card">
+            <h2>IMC</h2>
+            <form>
+                <input type="number" id="peso" placeholder="Digite seu peso">
+                <input type="number" id="altura" placeholder="Digite sua altura">
+            </form>
+            <div>
+                <button onclick="imc()">Executar</button>
+            </div>
+            Resultado: <span id="res_imc"></span>
+        </div>
+        <div class="card">
+            <h2>Tipo de Triângulo</h2>
+            <form>
+                <input type="number" id="triangulo1" placeholder="Digite a 1ª medida">
+                <input type="number" id="triangulo2" placeholder="Digite a 2ª medida">
+                <input type="number" id="triangulo3" placeholder="Digite a 3ª medida">
+            </form>
+            <div>
+                <button onclick="triangulo">Executar</button>
+            </div>
+            Resultado: <span id="res_triangulo"></span>
+        </div>
+        <div class="card">
+            <h2>Verificação de Número Primo</h2>
+            <form>
+                <input type="number" id="numeroprimo" placeholder="Informe o número">
+            </form>
+            <div>
+                <button onclick="numero_primo()">Executar</button>
+            </div>
+            Resultado: <span id="res_numero_primo"></span>
+        </div>
+        <div class="card">
+            <h2>Fatorial</h2>
+            <form>
+                <input type="number" id="fatorial" placeholder="Insira um número">
+            </form>
+            <div>
+                <button onclick="">Executar</button>
+            </div>
+            Resultado: <span id="res_fatorial"></span>
+        </div>
+        <div class="card">
+            <h2>Verificador de CPF</h2>
+            <form>
+                <input type="text" id="entrada" placeholder="123.456.789-00">
+            </form>
+            <div>
+                <button onclick="cpf()">Verificar</button>
+            </div>
+            Resultado: <span id="res_cpf"></span>
+        </div>
+        <div class="card">
+            <h2>Potenciação</h2>
+            <form>
+                <input type="text" id="expoente" placeholder="Digite o expoente">
+                <input type="text" id="denominador" placeholder="Digite o denominador">
+            </form>
+            <div>
+                <button onclick="potenciacao()">Executar</button>
+            </div>
+            Resultado: <span id="res_potenciacao"></span>
+        </div>
+    </main>
+</body> 
+</html>
